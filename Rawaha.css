@@ -1,0 +1,993 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #f4f4f1;
+}
+
+/* --------alternate-class------------- */
+
+.color {
+    color: #fff;
+    color: #6a1e55;
+    color: #856865;
+    color: #cba581;
+    color: #942274;
+    color: #756f629c;
+    color: #28281f;
+    color: #25d366;
+}
+
+.contener {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 30px;
+    color: #6a1e55;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #28281f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ham-burger i {
+    display: none;
+}
+
+.btn {
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    border: solid 2px #6a1e55;
+    background-color: #6a1e55;
+    transform: translateY(-5px);
+}
+
+/* ----------work--------start------ */
+.top-nav-contener {
+    background-color: #e0dcd2;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid 5px #756f629c;
+}
+
+.top-nav-left-icon i {
+    font-size: 25px;
+    padding: 5px 15px;
+    float: left;
+    color: #28281f;
+    transition: all 0.5s ease;
+}
+
+.top-nav-left-icon i:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s ease;
+}
+
+.logo-img {
+    width: 115px;
+    filter: brightness(0) invert(0);
+}
+
+.top-nav-right-icon i {
+    font-size: 20px;
+    padding: 5px 15px;
+    color: #28281f;
+    transition: all 0.5s ease;
+}
+
+.top-nav-right-icon i:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+nav {
+    background-color: #cba581;
+    position: sticky;
+    top: 0;
+    z-index: 300;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-ul li {
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    position: relative;
+    transition: color 0.3s ease, ;
+    text-transform: capitalize;
+}
+
+.nav-ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #756f629c;
+    transition: width 0.3s ease;
+}
+
+.nav-ul li a:hover:after {
+    width: 100%;
+}
+
+.nav-ul li a:hover {
+    color: #28281f;
+}
+
+/* -------------video-section--------start-------- */
+
+.video-div {
+    width: 100%;
+}
+
+.video1 {
+    width: 100%;
+}
+
+/* -------------luxuary-brands--------start-------- */
+.luxuary-brands {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.luxuary-brands-img {
+    height: 450px;
+    border-radius: 20px;
+    margin: 80px 100px;
+}
+
+.luxuary-brands-h1 {
+    font-size: 35px;
+    color: #6a1e55;
+    padding: 120px 0px 20px 0px;
+}
+
+.luxuary-brands-p {
+    font-size: 20px;
+    padding: 0px 150px 50px 0px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.luxuary-brands-btn {
+    border: solid 2px #942274;
+    background-color: #942274;
+    color: #fff;
+}
+
+.marquee-baner {
+    width: 100%;
+    color: #28281f;
+    background: linear-gradient(163deg, #e0dcd2 0%, #e0dcd2 40%, rgba(203, 165, 129, 0.57) 80%);
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+/* ----------our----selections----start---------- */
+
+.our {
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #6a1e55;
+    letter-spacing: 5px;
+    padding: 70px 0px 0px 0px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.our-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 50px;
+    padding: 50px 0px 100px 120px;
+}
+
+.picture5 {
+    width: 393px;
+}
+
+.sold {
+    width: 65px;
+    height: 27px;
+    font-size: 12px;
+    position: absolute;
+    z-index: 200;
+    text-align: center;
+    padding-top: 5px;
+    margin: 3px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.863);
+    border: solid rgba(0, 0, 0, 0.712) 1.5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img20 {
+    width: 100%;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img20 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    transition: all 0.8s ease;
+}
+
+.img20 #i23:hover {
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.edp {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    padding-top: 6px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.911);
+    letter-spacing: 2px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.add {
+    width: 100%;
+    height: 50px;
+    margin-top: 19px;
+    background-color: transparent;
+    border: solid black 1px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15PX;
+    text-shadow: -1px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* ----------slider----selections----start---------- */
+
+
+.bigslider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 7px 0px;
+}
+
+.slides {
+    width: 400px;
+    height: 575px;
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 30px;
+}
+
+.slide {
+    min-width: 100%;
+    height: 100vh;
+}
+
+.butt {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    color: rgba(0, 0, 0, 0.822);
+    font-size: 2rem;
+    z-index: 10;
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.692);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.slider1 {
+    width: 400px;
+    height: 575px;
+    background-color: #e0dcd2;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.slider1:hover {
+    transform: translateY(-3px);
+    transition: all 1s ease;
+}
+
+.sliderimg {
+    width: 400px;
+    height: 398px;
+    overflow: hidden;
+}
+
+.slideimg {
+    width: 400px;
+    height: 398px;
+    transition: all 1s ease;
+}
+
+.slideimg:hover {
+    transform: scale(1.2);
+}
+
+.buy {
+    width: 150px;
+    height: 83px;
+    float: right;
+}
+
+.sliderh4 {
+    padding: 10px 15px;
+    font-family: "poppins", Arial, sans-serif;
+    color: #ff6e4e;
+}
+
+.sliderh3 {
+    font-family: "poppins", Arial, sans-serif;
+    text-transform: capitalize;
+    padding: 0px 15px 10px;
+    color: #180000;
+}
+
+.product-rating {
+    margin-left: 15px;
+}
+
+.sliderbuttom {
+    width: 100%;
+    height: 83px;
+    display: flex;
+}
+
+.sliderbuttom1 {
+    width: 50%;
+    height: 100%;
+}
+
+.original-price {
+    padding-left: 15px;
+    font-family: "ADLaM Display", system-ui;
+}
+
+.sliderapn {
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: "ADLaM Display", system-ui;
+}
+
+.btnsli {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 8px;
+    border: solid #ff6e4e 1px;
+    color: #fef7f5;
+    background-color: #ff6e4e;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.btnsli:hover {
+    transform: translateY(-3px);
+    transition: all 1s ease;
+}
+
+.figeroff {
+    width: 60px;
+    height: 30px;
+    background-color: #ff6e4e;
+    position: absolute;
+    border-radius: 5px;
+    color: #fef7f5;
+    padding: 6px 10px;
+    font-family: "ADLaM Display", system-ui;
+    margin: 10px;
+    font-weight: lighter;
+    z-index: 100;
+}
+
+/* ----------sircle---image----selections----start---------- */
+.sircle-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px 0px 120px 0px;
+}
+
+.sircle-selection-img-div {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    overflow: hidden;
+}
+
+.sircle-selection-img-div:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.103) 0px 54px 55px, rgba(0, 0, 0, 0.062) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.sircle-selection-img {
+    width: 350px;
+    height: 350px;
+    opacity: 0.8;
+    transition: all 0.5s ease;
+}
+
+.sircle-selection-img:hover {
+    opacity: 1;
+}
+
+/* ----------footer----selections----start---------- */
+
+footer {
+    background-color: black;
+}
+
+.footer-head {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0px;
+    border-bottom: solid 1px #756f629c;
+}
+
+.footer-head-p {
+    color: #fff;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px 30px 0px;
+}
+
+.footer-center-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 3px 0px;
+}
+
+.footer-center-ul h3 {
+    font-size: 35px;
+    color: #fff;
+    padding: 0px 0px 10px 0px;
+}
+
+.footer-center-ul li {
+    list-style: none;
+}
+
+.footer-center-ul a {
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-center-ul a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+.imag-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px 0px;
+}
+
+.footer-img {
+    height: 150px;
+}
+
+.footer-icon-div {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-icon-div a {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #333;
+    color: #666;
+    transition: all ease 0.5s;
+}
+
+.footer-icon-div a:hover {
+    color: #333;
+    background-color: #fff;
+    box-shadow: 0 0 10px #fff;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-end-div {
+    border-top: solid 1px #756f629c;
+}
+
+.footer-end-p {
+    color: #fff;
+    padding: 5px 50px 10px 50px;
+}
+
+.whats-div {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 40px;
+    right: 35px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #25d366;
+    z-index: 50;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.whats-div i {
+    color: #fff;
+    font-size: 35px;
+
+}
+
+
+/* -----------------1200--px------------- */
+
+/* -----------------992--px-------------- */
+
+/* -----------------768--px-------------- */
+
+/* -----------------600--px-------------- */
+
+
+/* -----------------1200--px------------- */
+
+@media only screen and (max-width: 1200px) {
+
+    .luxuary-brands-img {
+        margin: 80px 60px;
+    }
+
+    .luxuary-brands {
+        width: 100%;
+    }
+
+    .luxuary-brands-h1 {
+        padding: 90px 60px 15px 0px;
+    }
+
+    .luxuary-brands-p {
+        padding: 0px 10px 30px 0px;
+    }
+
+    .our-section {
+        padding: 50px 0px 100px 60px;
+    }
+
+}
+
+/* -----------------------992--px------------------- */
+
+@media only screen and (max-width: 992px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    h6 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0;
+        color: #28281f;
+    }
+
+    .contener {
+        width: 100%;
+    }
+
+    .logo-img {
+        width: 100px;
+    }
+
+    .top-nav-left-icon i {
+        padding: 0px 7px;
+    }
+
+    .top-nav-right-icon i {
+        padding: 0px 7px;
+    }
+
+    .luxuary-brands-img {
+        height: 400px;
+    }
+
+    .luxuary-brands-h1 {
+        font-size: 25px;
+    }
+
+    .luxuary-brands-p {
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0;
+        padding: 0px 60px 30px 0px;
+    }
+
+    .luxuary-brands-btn {
+        padding: 15px 30px;
+    }
+
+    .our-section {
+        padding: 50px 0px 100px 80px;
+    }
+
+    .sircle-selection {
+        gap: 20px 100px;
+        padding: 80px 0px 80px 0px;
+    }
+
+    .sircle-selection-img-div {
+        width: 300px;
+        height: 300px;
+    }
+
+    .sircle-selection-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer-end-p {
+        font-size: 15px;
+    }
+
+    .footer-center-ul h3 {
+        font-size: 25px;
+    }
+
+    .footer-center-ul a {
+        font-size: 15px;
+    }
+
+    .footer-img {
+        height: 120px;
+    }
+
+    .imag-icon {
+        gap: 30px 0px;
+    }
+
+    .whats-div {
+        bottom: 35px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+/* --------------------------------768--px-------------------------- */
+
+@media only screen and (max-width: 768px) {
+
+    .ham-burger i {
+        display: flex;
+        font-size: 25px;
+        color: #856865;
+        padding: 0px 30px;
+    }
+
+    .ham-burger i:hover {
+        color: #180000;
+    }
+
+    .top-nav {
+        justify-content: space-between;
+        border-bottom: solid 10px #756f629c;
+    }
+
+    .top-nav-left-icon {
+        display: none;
+    }
+
+    .top-nav-right-icon {
+        padding: 0px 30px;
+    }
+
+    .top-nav-right-icon i {
+        font-size: 16px;
+        padding: 0px 5px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .luxuary-brands {
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0px;
+    }
+
+    .luxuary-brands-img {
+        margin: 20px 0px 0px 0px;
+        width: 600px;
+    }
+
+    .luxuary-brands-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .luxuary-brands-h1 {
+        text-align: center;
+        padding: 40px 0px 15px 0px;
+    }
+
+    .luxuary-brands-p {
+        text-align: center;
+        padding: 0px 40px 30px;
+    }
+
+    .luxuary-brands-btn {
+        padding: 15px 100px;
+    }
+
+    .our-section {
+        padding: 50px 0px 70px 60px;
+    }
+
+    .picture5 {
+        width: 300px;
+    }
+
+    .img20 {
+        width: 100%;
+        height: 280px;
+    }
+
+    .sircle-selection {
+        gap: 20px;
+    }
+
+    .whats-div {
+        bottom: 25px;
+        right: 10px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .whats-div i {
+        font-size: 30px;
+    }
+}
+
+/* -----------------600--px-------------- */
+
+@media only screen and (max-width: 600px) {
+
+    .top-nav {
+        justify-content: center;
+        border: none;
+    }
+
+    .top-nav-right-icon {
+        display: none;
+    }
+
+    .ham-burger i {
+        position: absolute;
+        top: 35px;
+        left: 0;
+    }
+
+    .luxuary-brands {
+        padding: 25px 0px;
+    }
+
+    .luxuary-brands-img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .luxuary-brands-h1 {
+        padding: 20px 0px 10px;
+    }
+
+    .luxuary-brands-p {
+        font-size: 16px;
+        padding: 0px 5px 10px;
+    }
+
+    .our {
+        padding: 20px 0px 0px 0px;
+        font-size: 35px;
+    }
+
+    .our-section {
+        justify-content: center;
+        padding: 35px 0px;
+        gap: 15px;
+    }
+
+    .picture5 {
+        width: 240px;
+    }
+
+    .img20 {
+        width: 100%;
+        height: 220px;
+    }
+
+    .slider1 {
+        width: 350px;
+        height: 525px;
+        position: relative;
+    }
+
+    .slides {
+        gap: 0;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .butt {
+        font-size: 25px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .btnsli {
+        bottom: 15px;
+        position: absolute;
+    }
+
+    .sircle-selection {
+        padding: 0px 0px 30px;
+    }
+
+    .footer-head {
+        padding: 5px 15px;
+        text-align: center;
+    }
+
+    .footer-head-p {
+        font-size: 15px;
+    }
+
+    .footer-center {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px 10px;
+    }
+
+    .footer-center-ul h3 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .footer-center-ul a {
+        font-size: 15px;
+    }
+
+    .footer-end-p {
+        font-size: 12px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    .footer-img {
+        height: 100px;
+    }
+
+    .footer-icon-div {
+        gap: 5px;
+    }
+
+    .footer-icon-div a {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+
+    .whats-div {
+        width: 35px;
+        height: 35px;
+    }
+
+    .whats-div i {
+        font-size: 25px;
+    }
+
+}
